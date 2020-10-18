@@ -8,7 +8,8 @@ public class IntScanner {
 
         System.out.println("Give int: ");
         int i1 = sc.nextInt();
-        System.out.println("int is: "+i1);
+        int i2 = sc.nextInt();
+        System.out.println("sum is: " + i1 / i2);
 
     }
 }

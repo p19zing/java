@@ -1,11 +1,11 @@
 public class Defaults {
-    
-    static int member;
-    
+
+    static int v=2;
+
     public static void main(String[] args){
-        int local;
-        
-        System.out.println(member);
-        System.out.println(local);
+        int v=1;
+
+        System.out.println(Defaults.v);
+        System.out.println(v);
     }
 }
